@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Standard Property Layout">
+		<message>
+			<![CDATA[Standard Property Layout]]>
+		</message>
+	</layout>
+	<state>
+		<name>Standard Property Layout</name>
+		<description>Standard Property Layout</description>
+		<url addpath="/administrator/components/com_properties/elements">
+			<param name="id" type="property" default="0" label="Select Property" description="An Property" />
+		</url>
+		<params>
+		</params>
+	</state>
+</metadata>

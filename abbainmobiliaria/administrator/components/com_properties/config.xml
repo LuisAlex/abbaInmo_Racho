@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params group="config">	
+	<param name="version" type="hidden" default="2011-09-24" value="2011-09-24" />
+		<param name="useTranslations" type="radio" default="0" label="Use Translations" description="Do you want to use Translations?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="prodMultipleCats" type="radio" default="0" label="Use product Multiple Categories" description="Do you want to use product Multiple Categories?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="categoryInUrl" type="radio" default="0" label="Use category In Url" description="Do you want to use category In Url?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="linkToPropertyView" type="radio" default="1" label="link To Property View" description="Do you want to use link To Property View?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="UseCountryDefault" type="text" default="1" size="3" label="Use Country Default" description="Use Country Default" />		
+		<param name="UseStateDefault" type="text" default="1" size="3" label="Use State Default" description="Use State Default" />		
+		<param name="UseLocalityDefault" type="text" default="1" size="3" label="Use Locality Default" description="Use Locality Default" />
+		<param name="cantidad_productos" type="text" default="5" label="Properties to Show" description="Properties to Show" />
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="ActiveMapa" type="radio" default="1" label="Active Map" description="Map Google" >
+		<option value="0">Hide</option>
+		<option value="1">Show</option>
+		</param>
+		<param name="apikey" type="text" default="ABQIAAAAFHktBEXrHnX108wOdzd3aBTupK1kJuoJNBHuh0laPBvYXhjzZxR0qkeXcGC_0Dxf4UMhkR7ZNb04dQ" label="Google Api" description="DES GOOGLE API" />
+		
+		<param name="distancia" type="text" default="15" label="Map Distance" description="DES MAP DISTANCIA" />
+		<param name="DefaultLat" type="text" default="30.062438" label="Default Lat" description="DefaultLat" />
+		<param name="DefaultLng" type="text" default="31.248207" label="Default Lng" description="DefaultLng" />
+		
+		<param name="AutoCoord" type="radio" default="1" label="Active AutoCoord" description="Active AutoCoord" >
+		<option value="0">No</option>
+		<option value="1">Yes</option>
+		</param>
+		<param name="WidthMap" type="text" default="100%" label="Width Map" description="Width of Map, default is 100%" />
+		<param name="HeightMap" type="text" default="300px" label="Height Map" description="Height of Map, default is 300px" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="SimbolPrice" type="text" size="5" default="$" label="Simbol for Price" description="Simbol Price example: U$D" />
+		<param name="PositionPrice" type="radio" default="0" label="Position Simbol Price" description="Position Simbol Price">
+			<option value="0">Before</option>
+			<option value="1">After</option>
+		</param>
+		<param name="FormatPrice" type="list" default="2" label="Format Price" description="Format Price">
+			<option value="0">000,000</option>
+			<option value="1">000,000.00</option>
+			<option value="2">000.000</option>
+			<option value="3">000.000,00</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="SaveContactForm" type="radio" default="0" label="Save Contact Form" description="Save Contact Form in DataBase?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="SaveContactFile" type="radio" default="0" label="Save Contact Form to File" description="Save Contact Form to File: components\com_properties\includes\mail\mailsents?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="mail_contact" type="text" default="" label="Mail to send Contacts" description="Mail to send Contacts, if is empty mails will be send to Agent (Profile) or Admin" />		
+		<param name="SendContactForm" type="list" default="1" label="Send Contact Form" description="Send Contact Form">
+			<option value="1">Admin</option>			
+			<option value="2">Agent</option>
+			<option value="3">Admin Agent</option>			
+		</param>	
+		
+		<param name="sendAgentData" type="radio" default="0" label="send Agent Data to Admin" description="send Agent Data to Admin?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>	
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="SaveSearchResults" type="radio" default="0" label="Save Search Results" description="Save Search Results in DataBase?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="UploadImagesSystem" type="radio" default="1" label="SWF Upload Images System" description="SWF Upload Images System?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+	</params>
+	<params group="list">
+	
+		<param name="Listlayout" type="list" default="default" label="Layout Template Properties List" description="Template Properties List">
+			<option value="default">Default</option>
+			<option value="slide">Slide</option>
+			<option value="default2">Default_2</option>
+			<option value="default3">Default_3</option>
+		</param>
+		<param name="WidthList" type="text" default="100%" label="Width List" description="Width of List, default is 100%" />
+		<param name="WidthThumbs" type="text" default="100" label="Width Thumbs" description="Width of thumbnails in pixels, default is 100" />
+		<param name="HeightThumbs" type="text" default="75" label="Height Thumbs" description="Height of thumbnails in pixels, default is 75" />
+		<param name="WidthImage" type="text" default="640" label="Width Image" description="Width of Imagen in pixels, default is 640" />
+		<param name="HeightImage" type="text" default="480" label="Height Image" description="Height of Imagen in pixels, default is 480" />
+		<param name="ShowImagesSystem" type="list" default="1" label="Show Images System" description="Show Images System">
+			<option value="0">No</option>
+			<option value="1">Slimbox</option>
+			<option value="2">Colorbox</option>
+		</param>
+		<param name="ShowOrderBy" type="radio" default="0" label="Show Order By" description="ShowOrderBy">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ShowOrderByDefault" type="list" default="ordering" label="Show Order By Default" description="ShowOrderByDefault">
+			<option value="">Order by</option>
+			<option value="refresh_time">Date</option>
+			<option value="price">Price</option>
+			<option value="cid">Category</option>
+			<option value="type">Type</option>
+			<option value="name">Title</option>
+			<option value="ordering">Ordering</option>
+		</param>
+		<param name="ShowOrderDefault" type="list" default="ASC" label="Show Order Default" description="ShowOrderDefault">
+			<option value="DESC">Order</option>
+			<option value="ASC">ASC</option>
+			<option value="DESC">DESC</option>			
+		</param>
+		
+		
+		<param name="ShowLogoAgent" type="radio" default="1" label="Show Logo Agent" description="Show Logo Agent In List?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ShowReferenceInList" type="radio" default="1" label="Show Reference In List" description="Show Reference In List?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ShowCategoryInList" type="radio" default="1" label="Show Category In List" description="Show Category In List?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ShowTypeInList" type="radio" default="1" label="Show Type In List" description="Show Type In List?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<param name="ShowCountryInList" type="radio" default="1" label="Show Country In List" description="Show Country In List?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ShowStateInList" type="radio" default="1" label="Show State In List" description="Show State In List?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ShowLocalityInList" type="radio" default="1" label="Show Locality In List" description="Show Locality In List?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		
+		
+		<param name="ShowAddressInList" type="radio" default="1" label="Show Address In List" description="Show Address In List?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ShowPriceInList" type="radio" default="1" label="Show Price In List" description="Show Address In List?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ShowContactLink" type="radio" default="1" label="Show Contact Link" description="Show Contact Link?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ShowPriceList" type="radio" default="1" label="Show Price List Link" description="Show Price List Link?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ShowMapLink" type="radio" default="1" label="Show Map Link" description="Show Map Link?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="ShowViewPropertiesAgentLink" type="radio" default="1" label="Show View Properties Agent Link" description="Show View Properties Agent Link?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showFavorites" type="radio" default="1" label="show Favorites" description="show Favorites Link?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showOpenHouse" type="radio" default="0" label="show Open House" description="show Open House?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="ThumbsInAccordion" type="text" default="5" label="Thumbs in Accordion" description="thumbnails in Accordion , default is 5" />
+		<param name="WidthThumbsAccordion" type="text" default="100" label="Width Thumbs in Accordion" description="Width of thumbnails in Accordion in pixels, default is 100" />
+		<param name="HeightThumbsAccordion" type="text" default="75" label="Height Thumbs in Accordion" description="Height of thumbnails in Accordion in pixels, default is 75" />
+		
+		<param name="ShowFeaturesInList" type="radio" default="1" label="Show Features In List" description="Show Features In List?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+    </params>
+	<params group="details">
+		<param name="DetailLayout" type="list" default="0" label="Layout Template Properties Detail" description="Template Properties Detail">
+			<option value="0">Default</option>
+			<option value="1">Default_1</option>
+			<option value="2">Default_2</option>
+			<option value="3">Default_3</option>
+		</param>
+		<param name="ActivarTabs" type="radio" default="0" label="Active Tabs" description="Active Tabs" >
+		<option value="0">No</option>
+		<option value="1">Yes</option>
+		</param>
+		<param name="WidthDetail" type="text" default="100%" label="Width Detail" description="Width of Detail, default is 100%" />
+		<param name="ShowImagesSystemDetail" type="list" default="1" label="Show Images System" description="Show Images System">
+			<option value="0">No</option>
+			<option value="1">Slimbox</option>
+			<option value="2">Colorbox</option>
+			<option value="3">prettyPhoto</option>
+		</param>
+		
+		<field name="pretty_photo_style" type="list" default="light_rounded" label="prettyPhoto Style" description="prettyPhoto Style">					
+			<option value="0">Ninguna</option>
+			<option value="dark_rounded">Dark Rounded</option>
+			<option value="dark_square">Dark Square</option>
+			<option value="light_rounded">Light Rounded</option>
+			<option value="light_square">Light Square</option>
+			<option value="facebook">Facebook</option>
+		</field>	
+		
+		<param name="WidthThumbsDetail" type="text" default="120" label="Width Thumbs in Detail" description="Width of thumbnails in Detail in pixels, default is 120" />
+		<param name="HeightThumbsDetail" type="text" default="90" label="Height Thumbs in Detail" description="Height of thumbnails in Detail in pixels, default is 90" />
+		<param name="ShowRecommendLink" type="radio" default="0" label="Show Recommend Link" description="Show Recommend Link ( send to a friend ) ?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+	<params group="booking">	
+	<param name="AmountMonthsCalendar" type="text" default="3" size="3" label="Show Months in Calendar" description="Show Months in Calendar" />
+	<param name="StartYearCalendar" type="text" default="2009" size="3" label="Start Year in Calendar" description="Start Year in Calendar" />
+	<param name="StartMonthCalendar" type="text" default="" size="3" label="Start Month in Calendar" description="Start Month in Calendar" />
+		<param name="PeriodOnlyWeeks" type="radio" default="0" label="Period Only Weeks" description="Booking Only Weeks?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="PeriodAmount" type="text" default="3" size="3" label="Period Min days" description="Show Months in Calendar" />
+		<param name="PeriodStartDay" type="text" default="" size="3" label="Period Start Day" description="Period Start Day" />
+		
+		<param name="PeriodStartBookings" type="text" default="" size="12" label="Period Start Bookings" description="Period Start Bookings" />
+		<param name="PeriodEndBookings" type="text" default="" size="12" label="Period End Bookings" description="Period End Bookings" />	
+	</params>
+</config>

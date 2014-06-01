@@ -1,0 +1,34 @@
+div#mod_prop_last_default {
+width:250px;
+float: left;
+margin-bottom:11px;
+text-align:left;
+margin-left:0px;
+}
+
+div#mod_prop_last_default  div.contenido{
+width:100%;
+background:none!important;
+padding:10px;
+margin-bottom:15px;
+float: left;
+}
+div#mod_prop_last_default img.prop_last_image{
+margin: 0px 10px 0px 0px;
+padding:2px;
+border: 1px solid #CCCCCC;
+/*float:left;*/
+}
+
+div#mod_prop_last_default div.watermark_box {position:relative;display:block; background:none!important; padding:0px!important;}
+div#mod_prop_last_default img.prop_last_watermark {position: absolute;top: 0px;left: 0px;border: none;}
+
+
+.prop_last_text {
+/*width:125px;
+height:15px;*/
+display:block;
+overflow:hidden;
+}
+
+

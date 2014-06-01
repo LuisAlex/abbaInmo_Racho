@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>Larrens2</name>
+	<creationDate>decembre/10</creationDate>
+	<author>globbers</author>
+	<authorEmail>globbers@hotmail.fr</authorEmail>
+	<authorUrl>http://www.globbersthemes.com</authorUrl>
+	<license>creative commons license</license>
+	<version>2.0</version>
+	<description>Larrens2, design by globbers for globbersthemes.
+	
+	<![CDATA[<h1>LARRENS2 Free Template </h1>
+
+			<img src="http://www.globbersthemes.com/images/larrens2.jpg" align="left" style="margin: 0px 10px 10px 0px;" />
+			
+			<span style="font-size: 15px;font-weight:bold;">
+		     Larrens2 template is a free template ,design by globbers.
+			<span style="color:red; font-weight: bold; ">!Not for commercial!!!</span> <br />							
+			<br />Visit globbersthemes: <a href="http://adf.ly/9T0U" target="_blank">http://www.globbersthemes.com</a>.<br />
+			</span>
+			<hr />
+			<h3><b>OTHER FREE TEMPLATES </b></h3>
+			    <span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/CDmT" target="_blank"><b>template larrens2</b></a>.</span>
+                <span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/C2gR" target="_blank"><b>template profile </b></a>.</span><br />
+                <span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/Bf1m" target="_blank"><b>template story of glory </b></a>.</span>
+			    <span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/AxE0" target="_blank"><b>template limpidum </b></a>.</span><br />
+			    <span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/ARIc" target="_blank"><b>template asturias</b></a>.</span>
+			    <span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9vSf" target="_blank"><b>template vanenborg</b></a>.</span><br />
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9TZW" target="_blank"><b>template cerniqua</b></a>.</span>
+			    <span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9TaH" target="_blank"><b>template blogana</b></a>.</span><br />
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9Tam" target="_blank"><b>template addaman</b></a>.</span>
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9TcU" target="_blank"><b>template via-granitti</b></a>.</span><br />
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9Tbv" target="_blank"><b>template upsilum</b></a>.</span>
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9Te6" target="_blank"><b>template marhance</b></a>.</span><br />
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9Tf9" target="_blank"><b>template everhest</b></a>.</span>
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9uwn" target="_blank"><b>template larrens</b></a>.</span><br />
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9uxw" target="_blank"><b>template naturalis</b></a>.</span>
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9uyO" target="_blank"><b>template dolmatia</b></a>.</span><br />
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9uzO" target="_blank"><b>template slumbyn</b></a>.</span>
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9v0B" target="_blank"><b>template barbarican</b></a>.</span><br />
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9v1E" target="_blank"><b>template baakminster</b></a>.</span>
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9v1n" target="_blank"><b>template antesate</b></a>.</span><br />
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9v2X" target="_blank"><b>template dupliscity</b></a>.</span>
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9v34" target="_blank"><b>template maillers</b></a>.</span><br />
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9v3x" target="_blank"><b>template notebook</b></a>.</span>
+				<span style="margin-right:10px;font-size:15px;"><a href="http://adf.ly/9v4b" target="_blank"><b>template archesoft</b></a>.</span><br />
+
+			<br /><br />]]>
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>params.ini</filename>
+		<filename>css/tdefaut.css</filename>
+		<filename>css/ie6.css</filename>
+		<filename>css/ie7.css</filename>
+		<filename>js/scroll.js</filename>
+		<filename>js/cufon-yui.js</filename>
+		<filename>js/cufon-replace.js</filename>
+		<filename>js/script.js</filename>
+		<filename>js/Bauhaus_93_400.font.js</filename>
+		<filename>js/accordeon.js</filename>
+		<filename>scripts/iepngfix.htc</filename>
+		<fileName>html/index.html</fileName>
+        <fileName>html/modules.php</fileName>
+		<filename>html/com_content/frontpage/default.php</filename>
+		<filename>html/com_content/frontpage/default_item.php</filename>
+		<filename>html/com_content/frontpage/index.html</filename>
+		<filename>html/mod_login/default.php</filename>
+		<filename>html/mod_login/index.html</filename>
+		<filename>html/mod_search/default.php</filename>
+		<filename>html/mod_search/index.html</filename>
+		<filename>favicon.gif</filename>
+		<filename>images/blank.gif</filename>
+		<filename>images/bg.jpg</filename>
+		<filename>images/top.png</filename>
+		<filename>images/bulle.png</filename>
+		<filename>images/login.png</filename>
+		<filename>images/register.png</filename>
+		<filename>images/search.png</filename>
+		<filename>images/login-hover.png</filename>
+		<filename>images/register-hover.png</filename>
+		<filename>images/search-hover.png</filename>
+		<filename>images/close.png</filename>
+		<filename>images/logout.png</filename>
+		<filename>images/bg-h3.png</filename>
+		<filename>images/sep.jpg</filename>
+		<filename>images/bg-calendar.png</filename>
+		<filename>images/footer.png</filename>
+		<filename>images/box-bg.png</filename>
+		<filename>images/ombre.png</filename>
+		<filename>images/top-ie6.jpg</filename>
+		<filename>images/logo.png</filename>
+		<filename>images/twitter.png</filename>
+		<filename>images/facebook.png</filename>
+		<filename>images/myspace.png</filename>
+        <filename>images/linkedin.png</filename>
+ 		<filename>images/youtube.png</filename>
+		<filename>images/technorati.png</filename>
+		<filename>images/stumbleupon.png</filename>
+		<filename>images/gotop.png</filename>
+		<filename>images/bg-slide.jpg</filename>
+		<filename>images/slide_im_1.jpg</filename>
+		<filename>images/slide_im_2.jpg</filename>
+		<filename>images/slide_im_3.jpg</filename>
+		<filename>images/slide_im_4.jpg</filename>
+		<filename>images/slide_show_act_it_1.jpg</filename>
+		<filename>images/slide_show_act_it_2.jpg</filename>
+		<filename>images/slide_show_act_it_3.jpg</filename>
+		<filename>images/slide_show_act_it_4.jpg</filename>
+		<filename>images/slide_show_it_1.jpg</filename>
+		<filename>images/slide_show_it_2.jpg</filename>
+		<filename>images/slide_show_it_3.jpg</filename>
+		<filename>images/slide_show_it_4.jpg</filename>
+	</files>
+		
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>syndicate</position>
+		<position>login</position>
+	</positions>
+	
+	<!-- Footer -->
+	 <params>
+		<param type="spacer" default="" />
+		<param type="spacer" default="&lt;b&gt;FOOTER&lt;/b&gt;" />
+		<param name="show_footertext" type="radio" default="1" label="Text Footer" description="footer">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+		</param>
+		<param name="footertext" type="textarea" default="Design by globbers for &lt;a target=&quot; _blank&quot;  href=&quot; http://www.globberstmemes&quot; &gt; globbersthemes&lt;/a>" label="Text Footer" description="Copyright Footer." rows="5" cols="33" />
+
+	  </params>
+</install>

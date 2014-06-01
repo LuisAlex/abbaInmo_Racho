@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0" method="upgrade">
+  <name>Modulo HTML</name>
+  <author>FrAnChO - JoniJnm.es</author>
+  <creationDate>6 Jul 2010</creationDate>
+  <copyright>(C) 2006 FrAnChO</copyright>
+  <license></license>
+  <authorEmail>francho@gigared.com</authorEmail>
+  <authorUrl>www.biendemujer.com.ar</authorUrl>
+  <version>2.1</version>
+  <description>Permite insertar cualquier codigo HTML o javascript dentro de un modulo. Podes usarlo para introducior los Google AdSense, codigos de contadores, etc. Podes copiarlo usando la opcion Copiar en la Zona de Modulos para crear varios modulos con el contenido HTML que quieras.</description>
+  <files>
+    <filename module="mod_frahtml">mod_frahtml.php</filename>
+	<filename module="mod_frahtml">index.html</filename>
+  </files>
+    <params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="fwd_frahtml" type="textarea" default="" label="HTML" description="Pon cualquier codigo HTML o Javascript Aqui. Ej: Google Adsense, Copia y pega Scripts" cols="70" rows="30" />
+		<param name="inv" type="radio" default="0" label="Para registrados?" description="La publicidad la pueden ver los registrados">
+			<option value="0">Si</option>
+			<option value="1">No</option>
+		</param>
+  </params>
+</install>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5.2" type="plugin" group="content" method="upgrade">
+	<name>Global Flash Galleries - Embed Plugin</name>
+	<creationDate>2010-06-01</creationDate>
+	<author>Mediaparts Interactive</author>
+	<authorEmail>joomla@flash-gallery.com</authorEmail>
+	<authorUrl>http://flash-gallery.com/joomla-extension/</authorUrl>
+	<copyright>Copyright (c) 2010-2011 Mediaparts Interactive</copyright>
+	<license>GNU/GPL http://www.gnu.org/licenses/gpl.html</license>
+	<version>0.6.5</version>
+	<releaseDate>2011-12-26</releaseDate>
+	<description>This plugin allows you to embed flash galleries into standard Joomla articles.</description>
+
+	<files>
+		<filename plugin="globalflashembed">globalflashembed.php</filename>
+	</files>
+
+	<params>
+	</params>
+</install>

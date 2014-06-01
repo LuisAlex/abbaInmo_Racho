@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Module Last Properties </name> 
+	<author>este8an</author> 
+	<creationDate>2011-09-29</creationDate> 
+	<copyright>All rights reserved by este8an 2008.</copyright> 
+	<license>GPL 2.0</license> 
+	<authorEmail>fabiouz@gmail.com</authorEmail> 
+	<authorUrl>www.yexey.com</authorUrl> 
+	<version>4.20110929</version> 
+	<description>Show Last Properties for Component version 4</description>
+	<files>
+		<filename module="mod_prop_last">mod_prop_last.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+	</files>
+	<languages>      
+		 <language tag="en-GB">en-GB.mod_prop_last.ini</language>
+		 <language tag="es-ES">es-ES.mod_prop_last.ini</language>
+		 <language tag="it-IT">it-IT.mod_prop_last.ini</language>
+    </languages>
+	<params addpath="/administrator/components/com_properties/elements">
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" /> 
+		<param name="SpecialDesign" type="text" default="" label="Special Design" description="Special Design" />
+		
+		<param name="layout" type="list" default="default" label="Layout" description="layout">
+			<option value="default">default</option>
+			<option value="center2">Center 2 Columns</option>
+			<option value="horizontal">horizontal</option>
+			<option value="vertical">vertical</option>			
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="ShowThisCategory" type="category" default="" label="Select category" description="An category" />
+		<param name="ShowWaterMark" type="radio" default="0" label="Show Water Mark" description="ShowWaterMark">
+	   	<option value="1">Yes</option>
+	   	<option value="0">No</option>
+		</param>
+		
+		<param name="amountColumns" type="text" default="3" label="amount Columns" description="amount Columns" />
+	
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+		<param name="ShowFeatured" type="radio" default="0" label="show only Featured" description="show only Featured">
+	   	<option value="1">Yes</option>
+	  	 <option value="0">No</option>
+		</param>
+		<param name="OrderBy" type="list" default="Ordering" label="OrderBy" description="OrderBy">
+			<option value="id">Id</option>
+			<option value="name">Name</option>
+			<option value="price">Price</option>
+			<option value="hits">Hits</option>
+			<option value="refresh_time">Last updated</option>
+			<option value="ordering">Ordering</option>
+			<option value="rand()">Random</option>
+		</param>
+		<param name="Order" type="list" default="DESC" label="Order" description="Order">
+			<option value="ASC">Asc</option>
+			<option value="DESC">Desc</option>				
+		</param>
+		<param name="amountShow" type="text" default="3" label="amount Show" description="amount Show" />		
+		<param name="ShowPropertyID" type="text" default="" label="Show this Properties ID" description="List Properties ID to show separate by , " />
+		<param name="widthThumb" type="text" default="100" label="width Thumb" description="widthThumb" />
+		<param name="heightThumb" type="text" default="100" label="height Thumb" description="heightThumb" />		
+		<param name="showName" type="radio" default="0" label="show Name" description="show Name">
+	   <option value="1">Yes</option>
+	   <option value="0">No</option>
+	</param>
+	<param name="showCategory" type="radio" default="0" label="show Category" description="show Category">
+	   <option value="1">Yes</option>
+	   <option value="0">No</option>
+	</param>
+	<param name="showType" type="radio" default="0" label="show Type" description="show Type">
+	   <option value="1">Yes</option>
+	   <option value="0">No</option>
+	</param>
+	<param name="showLocality" type="radio" default="0" label="show Locality" description="show Locality">
+	   <option value="1">Yes</option>
+	   <option value="0">No</option>
+	</param>
+	<param name="showHits" type="radio" default="0" label="show Hits" description="show Hits">
+	   <option value="1">Yes</option>
+	   <option value="0">No</option>
+	</param>
+		<param name="showPrice" type="radio" default="1" label="show Price" description="show Price">
+	   <option value="1">Yes</option>
+	   <option value="0">No</option>
+	</param>	
+    </params>
+</install>

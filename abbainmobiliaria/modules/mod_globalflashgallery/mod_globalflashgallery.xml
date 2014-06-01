@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5.0" type="module" method="upgrade">
+	<name>Flash Gallery</name>
+	<creationDate>2010-06-01</creationDate>
+	<author>Mediaparts Interactive</author>
+	<authorEmail>joomla@flash-gallery.com</authorEmail>
+	<authorUrl>http://flash-gallery.com/joomla-extension/</authorUrl>
+	<copyright>Copyright (c) 2010-2011 Mediaparts Interactive</copyright>
+	<license>GNU/GPL http://www.gnu.org/licenses/gpl.html</license>
+	<version>0.6.0</version>
+	<releaseDate>2011-09-01</releaseDate>
+	<description>Global Flash Gallery Module</description>
+
+	<files>
+		<filename module="mod_globalflashgallery">mod_globalflashgallery.php</filename>
+	</files>
+
+	<params addpath="/administrator/components/com_globalflashgalleries/elements">
+		<param name="gallery_id" type="flashgallery" default="" label="Select Gallery" description="" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="width" type="text" default="" label="Gallery Width" description="" />
+		<param name="height" type="text" default="" label="Gallery Height" description="" />
+		<param name="align" type="list" default="left" label="Alignment" description="">
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="" />
+	</params>
+
+	<config>
+		<fields name="params" addfieldpath="/administrator/components/com_globalflashgalleries/elements">
+			<fieldset name="gallery" label="Gallery Parameters">
+				<field name="gallery_id" type="flashgallery" default="" label="Select Gallery" description="" />
+				<field name="width" type="text" default="" label="Width" description="" />
+				<field name="height" type="text" default="" label="Height" description="" />
+				<field name="align" type="list" default="left" label="Alignment" description="">
+					<option value="left">Left</option>
+					<option value="center">Center</option>
+					<option value="right">Right</option>
+				</field>
+			</fieldset>
+			<fieldset name="general" label="Module Parameters">
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="" />
+			</fieldset>
+		</fields>
+	</config>
+</install>

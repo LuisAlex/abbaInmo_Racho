@@ -1,0 +1,38 @@
+#agents {
+	width:99%;
+	}
+
+.agent {
+	float: left;
+	width:100%;
+	margin:10px 0px 10px 0px;
+	border:solid 1px #DBD9D9;
+	/*background:#FFFFFF url(../img/s5_menu_link.png) repeat-x;*/
+	text-align:left;
+	padding:5px;
+	}
+
+.details {
+	width:100%;
+	float:left;
+	}
+
+.details img.agentimage  {
+	float: left;
+	padding: 2px;
+	border: 1px solid #CCCCCC;
+	width:100px;
+	height:125px;
+	}
+
+.data {
+	float: left;
+	padding-left:10px;
+	}
+.data a{
+	text-decoration:none;
+	font-weight:bold !important;	
+	}
+.data a:hover {
+	text-decoration:underline;
+	}

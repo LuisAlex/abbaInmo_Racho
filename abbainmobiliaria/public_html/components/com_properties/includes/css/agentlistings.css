@@ -1,0 +1,60 @@
+/*
+#PropertiesList {
+float:left;
+}
+*/
+.agentdata {
+	float: left;
+	width:684px;
+	margin:10px 0px 10px 0px;
+	border:solid 1px #DBD9D9;
+	/*background:#FFFFFF url(../img/s5_menu_link.png) repeat-x;*/
+	text-align:left;
+	padding:0px;
+	}
+
+.details {
+	width:100%;
+	float:left;
+	margin:10px 0 10px 10px;
+	}
+
+.details img.agentimage  {
+	float: left;
+	padding: 2px;
+	border: 1px solid #CCCCCC;
+	width:100px;
+	height:125px;
+	}
+
+.agentdata .details .data {
+	float: left;
+	margin-left:20px;
+
+	}
+.data a{
+	text-decoration:none;
+	font-weight:bold !important;	
+	}
+.data a:hover {
+	text-decoration:underline;
+	}
+	
+div.rightdata {
+float:right;
+margin: 20px 20px 0 0;
+
+}
+
+div.rightdata .logoag{
+
+}
+
+
+.contactme {
+    background-color: #4A8A3A;
+    background-position: 0 -4479px;
+    box-shadow: 0 2px 5px #17310A;
+    color: #FFFFFF!important;	
+    padding: 3px 8px;
+}

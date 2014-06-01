@@ -1,0 +1,1 @@
+Cufon.replace('dl.tabs dt, h3.tittle-login,#right div.module h3, #right div.module_text h3, #right div.module_menu h3, h3,.componentheading,.calendar,.contentheading,.blog_more strong', {hover:true });

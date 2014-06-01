@@ -1,0 +1,107 @@
+CREATE TABLE IF NOT EXISTS `#__properties_bookings` (
+  `ob_id_order` int(5) NOT NULL auto_increment,
+  `ob_id_property` int(5) NOT NULL,  
+  `ob_name` varchar(255) collate utf8_unicode_ci NOT NULL,
+  `ob_address` varchar(255) collate utf8_unicode_ci NOT NULL,
+  `ob_postcode` varchar(255) collate utf8_unicode_ci NOT NULL,
+  `ob_city` varchar(255) collate utf8_unicode_ci NOT NULL,  
+  `ob_state` varchar(255) collate utf8_unicode_ci NOT NULL,
+  `ob_country` varchar(255) collate utf8_unicode_ci NOT NULL,
+  `ob_phone` varchar(255) collate utf8_unicode_ci NOT NULL,
+  `ob_text` text collate utf8_unicode_ci NOT NULL,
+  `ob_mail` varchar(255) collate utf8_unicode_ci NOT NULL,
+  `ob_created` datetime NOT NULL,  
+  `ob_from` date NOT NULL,
+  `ob_to` date NOT NULL,
+  `ob_price` int(5) NOT NULL,  
+  `ob_adults` tinyint(1) NOT NULL,
+  `ob_boys` tinyint(1) NOT NULL,
+  `ob_babies` tinyint(1) NOT NULL,
+  `ob_deposit` date default NULL,
+  `ob_deposit_amount` int(9) NOT NULL,
+  `ob_confirmed` tinyint(4) NOT NULL,
+  `ob_confirmed_date` date default NULL,
+  `ob_confirmed_by` int(5) NOT NULL,
+  `ob_send_mail` tinyint(1) NOT NULL,
+  `ob_text_mail` text collate utf8_unicode_ci NOT NULL,
+  `ob_language` varchar(255) collate utf8_unicode_ci NOT NULL,
+  `ob_contract_name` varchar(255) collate utf8_unicode_ci NOT NULL,
+  `ob_contract_send` date default NULL,
+  PRIMARY KEY  (`ob_id_order`)
+) ENGINE=MyISAM;
+CREATE TABLE IF NOT EXISTS `#__properties_products_translations` (
+  `pt_id` int(11) NOT NULL auto_increment,
+  `pt_pid` int(11) NOT NULL,
+  `pt_langid` int(2) NOT NULL,
+  `pt_langcode` varchar(5) NOT NULL,
+  `pt_name` varchar(255) NOT NULL,
+  `pt_alias` varchar(255) NOT NULL,
+  `pt_address` varchar(255) default NULL,
+  `pt_description` text NOT NULL,
+  `pt_text` text NOT NULL,
+  `pt_currency` varchar(20) default NULL,
+  `pt_published` tinyint(1) NOT NULL,
+  `pt_metatitle` varchar(1024) NOT NULL,
+  `pt_metadesc` varchar(1024) NOT NULL,
+  `pt_metakey` varchar(1024) NOT NULL,
+  PRIMARY KEY  (`pt_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+CREATE TABLE IF NOT EXISTS `#__properties_translations` (
+  `t_id` int(5) NOT NULL auto_increment,
+  `t_languageid` int(2) NOT NULL,
+  `t_languagecode` varchar(5) NOT NULL,
+  `t_table` varchar(100) NOT NULL,
+  `t_field` varchar(100) NOT NULL,
+  `t_fieldid` int(5) NOT NULL,
+  `t_value` varchar(100) NOT NULL,
+  `t_alias` varchar(255) NOT NULL,
+  `published` tinyint(1) NOT NULL,
+  PRIMARY KEY  (`t_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+CREATE TABLE IF NOT EXISTS `#__properties_showresults` (
+  `id` int(11) NOT NULL auto_increment,
+  `date` datetime NOT NULL,
+  `url` varchar(1000) NOT NULL,
+  `hits` int(11) NOT NULL,
+  `cyid` int(6) NOT NULL,
+  `sid` int(6) NOT NULL,
+  `lid` int(6) NOT NULL,
+  `cid` int(6) NOT NULL,
+  `tid` int(6) NOT NULL,
+  `capacity` int(2) NOT NULL,
+  `bedrooms` tinyint(1) NOT NULL,
+  `bathrooms` tinyint(1) NOT NULL,
+  `garage` tinyint(1) NOT NULL,
+  `minprice` int(6) NOT NULL,
+  `maxprice` int(6) NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8;
+CREATE TABLE IF NOT EXISTS `#__properties_openhouse` (
+  `id` int(6) NOT NULL auto_increment,
+  `pid` int(6) NOT NULL,
+  `publish_up` datetime NOT NULL,
+  `date` date NOT NULL,
+  `from` time NOT NULL,
+  `to` time NOT NULL,
+  `text` text NOT NULL,
+  `published` tinyint(1) NOT NULL,
+  `ordering` int(6) NOT NULL,
+  `checked_out` tinyint(1) NOT NULL,
+  `checked_out_time` datetime NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+CREATE TABLE IF NOT EXISTS `#__properties_currencies` (
+  `id` int(3) NOT NULL AUTO_INCREMENT,
+  `currency` varchar(100) NOT NULL,
+  `alias` varchar(100) NOT NULL,
+  `position` tinyint(1) NOT NULL,
+  `published` tinyint(1) NOT NULL,
+  `ordering` int(11) NOT NULL DEFAULT '0',
+  `checked_out` tinyint(1) NOT NULL DEFAULT '0',
+  `checked_out_time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+INSERT IGNORE INTO `#__properties_currencies` VALUES
+(1, '$', 's', 0, 1, 2, 0, '0000-00-00 00:00:00'),
+(2, 'U$D', 'usd', 0, 1, 1, 0, '0000-00-00 00:00:00'),
+(3, 'EUR', 'eur', 1, 1, 3, 0, '0000-00-00 00:00:00');

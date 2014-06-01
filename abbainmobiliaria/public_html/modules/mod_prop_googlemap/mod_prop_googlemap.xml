@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Module GoogleMap</name>
+	<author>este8an</author>
+	<creationDate>2011-09-29</creationDate>
+	<copyright>All rights reserved by este8an 2008.</copyright>
+	<license>GPL 2.0</license>
+	<authorEmail>fabiouz@gmail.com</authorEmail>
+	<authorUrl>www.yexey.com</authorUrl>
+	<version>4.20110929</version>
+	<description>Googlemap Map</description>
+	<files>
+		<filename module="mod_prop_googlemap">mod_prop_googlemap.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>manual.txt</filename>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+		<folder>img</folder>		
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="layout" type="list" default="default" label="Layout" description="layout">
+			<option value="default">default</option>			
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />              
+		<param name="MapApiKey" type="text" default="add GoogleMap Apy Key" label="Google Api" description="DES GOOGLE API" />		
+		<param name="MapDistance" type="text" default="15" label="Map Distance" description="DES MAP " />
+		<param name="DefaultLat" type="text" default="42.911869" label="Default Lat" description="DefaultLat" />
+		<param name="DefaultLng" type="text" default="13.894358" label="Default Lng" description="DefaultLng" />		
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="ShowFeatured" type="radio" default="0" label="show only Featured" description="show only Featured">
+	   <option value="1">Yes</option>
+	   <option value="0">No</option>
+	</param>
+		<param name="OrderBy" type="list" default="0" label="OrderBy" description="OrderBy">
+			<option value="0">Id</option>
+			<option value="1">Name</option>
+			<option value="2">Price</option>
+			<option value="3">Hits</option>
+			<option value="4">Last updated</option>	
+		</param>
+		<param name="Order" type="list" default="0" label="Order" description="Order">
+			<option value="0">Asc</option>
+			<option value="1">Desc</option>				
+		</param>
+		<param name="amountShow" type="text" default="3" label="amount Show" description="amount Show" />		
+		<param name="ShowPropertyID" type="text" default="" label="Show this Properties ID" description="List Properties ID to show separate by , " />
+		
+		
+		  
+    </params>
+</install>

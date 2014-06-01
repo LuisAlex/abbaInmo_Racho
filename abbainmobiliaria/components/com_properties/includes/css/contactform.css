@@ -1,0 +1,33 @@
+input, select, textarea, .inputbox { 
+	background:#fff; 
+	border: 1px solid #e5e5e5; 
+	color: #666; 
+	 padding: 5px 10px;
+	}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+	}	
+td {
+    font-size: 100%;
+    padding: 6px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	}
+fieldset {   
+    padding: 12px 0;
+	border: 1px solid #E5E4DF;
+	background: #F9F9F9;
+	}
+legend {
+	padding: 12px ;
+	}
+.button {
+    background: none repeat scroll 0 0 #A8A592;
+    border: 1px solid #9B9886;
+    color: #FFFFFF;
+	font-family: Arial,Helvetica,sans-serif;
+    height: 22px !important;
+    padding-bottom: 2px;
+	}

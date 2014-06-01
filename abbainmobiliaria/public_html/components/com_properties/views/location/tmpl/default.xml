@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Location Layout">
+		<message>
+			<![CDATA[Location Layout]]>
+		</message>
+	</layout>
+	<params>
+		<param name="titlepage" type="text" default="" label="Title" description="METATITLE" />
+		<param name="description" type="textarea" rows="5" cols="30" default="" label="Description" description="METADESC" />
+		<param name="keywords" type="textarea" rows="5" cols="30" default="" label="Keywords" description="METAKEYS" />		
+	</params>
+</metadata>

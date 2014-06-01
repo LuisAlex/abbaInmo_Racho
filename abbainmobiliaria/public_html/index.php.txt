@@ -1,0 +1,18 @@
+<html>
+<head>
+    <title>Colegio de Arquitectos de Dgo</title>
+</head>
+
+<body background="fondo.png">
+
+<table width="650" align=center>
+<tr>
+    <td style="color:000000">
+<IMG SRC="construccion1.png" >
+    </td></tr>
+</tr>
+</table>
+
+</body>
+</html>
+

@@ -1,0 +1,350 @@
+#config-document textarea.text_area{
+width:250px;
+}
+#config-document input.text_area{
+width:250px;
+}
+
+#progressA {
+width: 30px;
+height:30px;
+background:url(../img/loading.gif) 100% 60% no-repeat;
+visibility:hidden;
+float:right;
+}
+#progressS {
+width: 30px;
+height:30px;
+background:url(../img/loading.gif) 100% 60% no-repeat;
+visibility:hidden;
+float:right;
+}
+#progressL {
+width: 30px;
+height:30px;
+background:url(../img/loading.gif) 100% 60% no-repeat;
+visibility:hidden;
+float:right;
+}
+#progressT {
+width: 30px;
+height:30px;
+background:url(../img/ajax-loader.gif) 100% 60% no-repeat;
+visibility:hidden;
+float:right;
+
+}
+
+
+
+
+
+div.div_thumbs_all {
+float:left;
+width:100%;
+}
+
+#thumbnails div.thumb {
+float:left;
+}
+#thumbnails img.trigger {
+width:100px;
+height:75px;
+margin-top:2px;
+margin-right:2px;
+vertical-align: middle;
+padding:2px;
+border: 1px solid #CCCCCC;
+}
+
+img.thumb_form {
+padding: 1px;
+width:60px;
+height:45px
+}
+
+ .bubbleInfo {
+            position: relative;
+           
+           
+        }
+        .trigger {
+           /* position: absolute;*/
+        }
+     
+        /* Bubble pop-up */
+		.adminform table.popup {
+        	position: absolute;
+        	display: none;
+        	z-index: 50;
+        	border-collapse: collapse;
+			bottom:50px;
+        }
+		
+		.adminform table.popup td {
+		margin: 0;
+            padding: 0;
+		}
+		
+		
+
+        .popup {
+        	position: absolute;
+        	display: none;
+        	z-index: 50;
+        	border-collapse: collapse;
+			bottom:50px;
+        }
+		
+		.popup td {
+		margin: 0;
+            padding: 0;
+		}
+
+        .popup td.corner {
+        	height: 15px;
+        	width: 19px;
+			margin: 0;
+            padding: 0;
+        }
+
+        .popup td#topleft { background-image: url(../img/bubble-1.png); }
+        .popup td.top { background-image: url(../img/bubble-2.png); }
+        .popup td#topright { background-image: url(../img/bubble-3.png); }
+        .popup td.left { background-image: url(../img/bubble-4.png); }
+        .popup td.right { background-image: url(../img/bubble-5.png); }
+        .popup td#bottomleft { background-image: url(../img/bubble-6.png); }
+        .popup td.bottom { background-image: url(../img/bubble-7.png); text-align: center;}
+        .popup td.bottom img { display: block; margin: 0 auto; }
+        .popup td#bottomright { background-image: url(../img/bubble-8.png); }
+
+        .popup table.popup-contents {
+        	font-size: 12px;
+        	line-height: 1.2em;
+        	background-color: #fff;
+        	color: #666;
+        	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+        	}
+
+        table.popup-contents th {
+        	text-align: right;
+        	text-transform: lowercase;
+			width: 20px;
+        	}
+
+        table.popup-contents td {
+        	text-align: left;
+        	}
+
+        tr.editar th {
+        	text-align: left;
+        	text-indent: -9999px;
+        	background: url(../img/starburst.gif) no-repeat top right;
+        	height: 17px;
+        	}
+			
+		tr.borrar th {
+        	text-align: left;
+        	text-indent: -9999px;
+        	background: url(../img/starburst.gif) no-repeat top right;
+        	height: 17px;
+        	}
+
+        tr#editar td a {
+        	color: #333;
+        }
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+/* calendar*/
+
+table.table_calendar {
+
+}
+td.td_calendar{
+display:block;
+background-color:white;
+float:left;
+margin:2px;
+height:190px;
+}
+
+
+
+div.calendarwrap1 {
+width:780px;
+display:block;
+	font-size:90%;
+	color:black;
+	text-align:center;
+	margin-top:15px;
+}
+
+table.table_month {
+	border: 1px solid #CCCCCC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+}
+
+
+table.table_month table {
+	border:1px solid white;
+	padding:2px;
+	text-align:center;
+}
+table.table_month td, th {
+	padding:1px 1px 1px 1px;
+	border: 1px solid #CCCCCC;
+}
+table.table_month td {
+	width:16px;
+	height:16px;
+	text-align:center;
+}
+
+table.table_month td.empty {
+background-color:#FFFFFF;
+border: 1px solid #FFFFFF;
+height: 20px;
+}
+table.table_month td.fecha {
+background-color:#FFFFFF;
+border: 1px solid #CCCCCC;
+height: 20px;}
+
+table.table_month td.available_0{
+background-color: #ffffff;
+border: 1px solid #CCCCCC;
+height: 20px;
+}
+
+table.table_month td.available_1 {
+background-color: #33CC33;
+border: 1px solid #CCCCCC;
+height: 20px;
+}
+table.table_month td.available_9 {
+background-color: #CC0000;
+border: 1px solid #CCCCCC;
+height: 20px;
+color: #FFFFFF;
+}
+table.table_month td.fechaunavailable a{
+color: #FFFFFF;
+font-weight:bold;
+}
+table.table_month td.fechaavailable a{
+color: #FFFFFF;
+font-weight:bold;
+}
+table.table_month td.fechaunavailable a:hover{
+color: #33CC33;
+font-weight:bold;
+}
+table.table_month td.fechaavailable a:hover{
+color: #CC0000;
+font-weight:bold;
+}
+
+
+table.table_month th {background-color:#FFFFFF; color:black;
+font-weight:bold;
+}
+input.inputbox {
+float:left;
+
+}
+
+.select_calendar td{
+padding:0px 10px;
+
+}
+
+
+/*ratesaddlist*/
+
+div#product_ratesaddlist {
+
+}
+
+div#product_ratesaddlist table{
+border: 1px solid #CCCCCC;
+}
+
+
+div#product_ratesaddlist table th{
+background: #F7F7F7;
+border:1px solid #CCCCCC;
+
+}
+
+div#product_ratesaddlist table td.td1{
+background: #F7F7F7;
+}
+div#product_ratesaddlist table td.td0{
+background: #FFFFFF;
+}		
+	/*ratesaddlist*/	
+	
+	
+div.divmychecks input{ 
+/*visibility:hidden;*/
+float:left;
+position:absolute;
+left:0px;
+width:10px;
+
+}
+
+.divmychecks {
+width:200px;
+height:25px;
+float:left;
+position:relative;
+color: #333333;
+}
+
+.divmychecks label.mylabel{
+width:200px;
+height:20px;
+float:left;
+border-bottom: 1px solid #e9e9e9;
+border-right: 1px solid #e9e9e9;
+padding: 2px 0px 2px 30px;
+display:block;
+background-repeat:no-repeat;
+background-position:8px center;
+cursor:pointer;
+position:relative;
+}
+
+
+
+
+.mychecked label.mylabel{
+background-color: #f6f6f6;
+background-image: url(../img/chk_on.png);
+}
+
+.mychecked label.mylabel:hover{
+background-color: #FF6600;
+background-image: url(../img/chk_on.png);
+}
+
+.myunchecked label.mylabel{
+background-color: #ffffff;
+background-image: url(../img/chk_off.png);
+}
+
+.myunchecked label.mylabel:hover{
+background-color: #66CC00;
+background-image: url(../img/chk_off.png);
+}

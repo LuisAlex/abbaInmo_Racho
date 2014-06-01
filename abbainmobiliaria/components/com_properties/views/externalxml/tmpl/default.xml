@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="externalxml Layout">
+		<message>
+			<![CDATA[externalxml Layout]]>
+		</message>
+	</layout>
+	<state>
+		<name>externalxml Layout</name>
+		<description>externalxml Layout</description>
+		
+		<params>
+		<param name="xmlurl" type="text" default="" label="xml url" description="xmlurl" />
+		</params>
+			
+		
+	</state>
+</metadata>

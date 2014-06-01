@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">   
+	<name>Module Property Search ajax</name> 
+	<author>este8an</author>  
+	<creationDate>2011-09-29</creationDate>
+	<copyright>All rights reserved by este8an 2008.</copyright> 
+	<license>GPL 2.0</license>
+	<authorEmail>fabiouz@gmail.com</authorEmail> 
+	<authorUrl>www.yexey.com</authorUrl> 
+	<version>4.20110929</version> 
+	<description>ajax Search Properties</description>
+	<files>
+		<filename module="mod_prop_search_ajax">mod_prop_search_ajax.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>		
+		<folder>tmpl</folder>				
+		<folder>css</folder>		
+		<filename>ModuleSearchAjax.php</filename>		
+	</files>
+	<languages>     
+		<language tag="en-GB">en-GB.mod_prop_search_ajax.ini</language>
+		<language tag="es-ES">es-ES.mod_prop_search_ajax.ini</language>
+		<language tag="it-IT">it-IT.mod_prop_search_ajax.ini</language>
+    </languages>
+	<params>        
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />       
+		<param name="@spacer" type="spacer" default="" label="" description="" />            
+		<param name="divWidth" type="text" default="" label="Module div Width" description="div Width : 500px" />
+		<param name="divHeight" type="text" default="" label="Module div Height" description="div Height : 500px" />
+		<param name="selectWidth" type="text" default="" label="Module select Width" description="select Width : 500px" />
+   <param name="@spacer" type="spacer" default="" label="" description="" />		
+		
+		<param name="showSelectCountry" type="radio" default="1" label="Country" description="Do you want to use the country selector list?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>	
+		<param name="idCountryDefault" type="text" default="" size="3" label="id Country Default" description="id Country Default" />			
+		<param name="showSelectState" type="radio" default="1" label="State" description="Do you want to use the state selector list?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>	
+		<param name="idStateDefault" type="text" default="" size="3" label="id State Default" description="id State Default" />	
+		<param name="showSelectLocality" type="radio" default="1" label="Locality" description="Do you want to use the locality selector list?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="idLocalityDefault" type="text" default="" size="3" label="id Locality Default" description="id Locality Default" />
+		<param name="showSelectCategory" type="radio" default="1" label="category" description="Do you want to use the category/property type selector list?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="showSelectType" type="radio" default="1" label="Type" description="Do you want to use the type/property type selector list?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="showParentType" type="radio" default="0" label="Parent Category Type" description="Do you want to use the Parent Category type/property type selector list?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showSelectBedrooms" type="radio" default="1" label="bedrooms list" description="Do you want to use the bedrooms list?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="exactBedrooms" type="radio" default="1" label="exact Bedrooms" description="Do you want to show exact 1 Bedroom or (1 or more bedrooms)?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+				
+		<param name="showSelectBathrooms" type="radio" default="1" label="Bathrooms list" description="Do you want to use the bathrooms list?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="exactBathrooms" type="radio" default="1" label="exact Bathrooms" description="Do you want to show exact 1 Bathroom or (1 or more Bathrooms)?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showSelectParking" type="radio" default="1" label="parking list" description="Do you want to use the parking list?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		
+		<param name="ms_area" type="radio" default="1" label="area textbox" description="Do you want to use the area ?">
+			<option value="0">No</option>
+			<option value="1">Select</option>
+			<option value="2">Text Area</option>
+		</param>
+		
+		<param name="RangeAreaMin" type="text" default="001;100;200;300;400;500" size="40"  label="Min Area for Select" description="Separate by ';' example: 001;100;200;300;400;500 " />
+		<param name="RangeAreaMax" type="text" default="099;199;299;399;499;500;1000" size="40"  label="Max Area for Select" description="Separate by ';' example: 099;199;299;399;499;500;1000" />
+		<param name="AreaToSearch" type="radio" default="area" label="Area To Search" description="Area To Search ?">
+			<option value="area">Area</option>
+			<option value="covered_area">Covered Area</option>			
+		</param>
+		
+		<param name="showTextCoveredArea" type="radio" default="0" label="show Text Covered Area" description="show Text Covered Area ?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>			
+		</param>
+		
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+		
+		<param name="showCurrency" type="radio" default="0" label="show Currency" description="Do you want to show Currency ?">
+			<option value="0">No</option>
+			<option value="1">Select</option>
+			<option value="2">Radio</option>
+		</param>
+		
+		<param name="showTextPrice" type="radio" default="1" label="price Text" description="Do you want to use the price Text?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		
+		<param name="showSelectPrice" type="radio" default="1" label="price Select Lists" description="Do you want to use the price Select lists?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="MinPriceRentDay" type="text" default="" size="40"  label="Range Min Price per Day" description="Separate by ';' example: 100;200;300;400;500" />
+		<param name="MaxPriceRentDay" type="text" default="" size="40"  label="Range Max Price per Day" description="Separate by ';' example: 300;400;500;700;1000" />	
+		<param name="IdCatPriceDay" type="text" default="" size="3" label="id Category Price per Day" description="id Category Price per Day" />	
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+		<param name="MinPriceRentMonth" type="text" default="1.000;2.000;3.000;4.000;5.000" size="40"  label="Range Min Price per Month" description="Separate by ';' example: 1.000;2.000;3.000;4.000;5.000" />
+		<param name="MaxPriceRentMonth" type="text" default="3.000;4.000;5.000;7.000;10.000" size="40"  label="Range Max Price per Month" description="Separate by ';' example: 3.000;4.000;5.000;7.000;10.000" />
+		<param name="IdCatPriceMonth" type="text" default="1" size="3" label="id Category Price per Month" description="id Category Price per Month" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+		<param name="MinPriceSell" type="text" default="" size="80"  label="Range Min Price for Sell" description="Separate by ';' example: 10000;50000;100000;250000" />
+		<param name="MaxPriceSell" type="text" default="" size="80"  label="Range Max Price for Sell" description="Separate by ';' example: 50000;100000;250000;500000" />	
+		<param name="IdCatPriceSell" type="text" default="2" size="3" label="id Category Price for Sell" description="id Category Price for Sell" />
+		<param name="ms_pricesell" type="radio" default="0" label="Use only Prices for Sell" description="Do you want to use only Prices for Sell?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="@spacer" type="" default="" label="Extras to show" description="Extras to show type Radio" />
+		
+		<param name="showExtra1" type="radio" default="0" label="extra1" description="Do you want to show extra1?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showExtra2" type="radio" default="0" label="extra2" description="Do you want to show extra1?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showExtra3" type="radio" default="0" label="extra3" description="Do you want to show extra1?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showExtra4" type="radio" default="0" label="extra4" description="Do you want to show extra1?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showExtra5" type="radio" default="0" label="extra5" description="Do you want to show extra1?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showExtra6" type="radio" default="0" label="extra6" description="Do you want to show extra1?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showExtra7" type="radio" default="0" label="extra7" description="Do you want to show extra1?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showExtra8" type="radio" default="0" label="extra8" description="Do you want to show extra1?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showExtra9" type="radio" default="0" label="extra9" description="Do you want to show extra1?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showExtra10" type="radio" default="0" label="extra10" description="Do you want to show extra1?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="ShowTextSearch" type="radio" default="0" label="Show Text Search" description="Do you want to Show Text Search?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+		
+		<param name="ShowTotalResult" type="radio" default="1" label="Show Total Result" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+    </params>	
+</install>

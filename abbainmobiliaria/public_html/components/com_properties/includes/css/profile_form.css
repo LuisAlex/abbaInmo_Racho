@@ -1,0 +1,10 @@
+/* submenu styling */
+
+div.profileform {
+width:100%;
+border: 1px solid #CCCCCC;
+}
+
+div.profileform input.text_area {
+width:200px;
+}

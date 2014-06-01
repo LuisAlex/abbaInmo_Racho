@@ -1,0 +1,82 @@
+.icon-48-categories{
+	padding-left: 70px !important;
+	background-image: url(../img/categories.png) !important;	
+}
+.icon-48-types{
+	padding-left: 70px !important;
+	background-image: url(../img/types.png);
+}
+.icon-48-countries{
+	padding-left: 70px !important;
+	background-image: url(../img/countries.png);
+}
+.icon-48-currencies{
+	padding-left: 70px !important;
+	background-image: url(../img/currencies.png);
+}
+.icon-48-states{
+	padding-left: 70px !important;
+	background-image: url(../img/states.png);
+}
+.icon-48-localities{
+	padding-left: 70px !important;
+	background-image: url(../img/localities.png);
+}
+.icon-48-products{
+	padding-left: 70px !important;
+	background-image: url(../img/products.png);
+}
+.icon-48-productstranslations{
+	padding-left: 70px !important;
+	background-image: url(../img/productstranslations.png);
+}
+.icon-48-translations{
+	padding-left: 70px !important;
+	background-image: url(../img/translations.png);
+}
+.icon-48-showresults{
+	padding-left: 70px !important;
+	background-image: url(../img/showresults.png);
+}
+.icon-48-properties{
+	padding-left: 70px !important;
+	background-image: url(../img/properties.png);
+}
+.icon-48-configuration{
+	padding-left: 70px !important;
+	background-image: url(../img/configuration.png);
+}
+.icon-48-profiles{
+	padding-left: 70px !important;
+	background-image: url(../img/profiles.png);
+}
+.icon-48-panel{
+	padding-left: 70px !important;
+	background-image: url(../img/panel.png);
+}
+.icon-48-contacts{
+	padding-left: 70px !important;
+	background-image: url(../img/contacts.png);
+}
+.icon-48-users{
+	padding-left: 70px !important;
+	background-image: url(../img/users.png);
+}
+.icon-48-help{
+	padding-left: 70px !important;
+	background-image: url(../img/help.png);
+}
+.icon-48-info{
+	padding-left: 70px !important;
+	background-image: url(../img/info.png);
+}
+.icon-48-bookings{
+	padding-left: 70px !important;
+	background-image: url(../img/bookings.png);
+}
+.icon-32-print 		{ background-image: url(../img/icon-32-print.png); }
+.icon-32-export 		{ background-image: url(../img/icon-32-export.png); }
+
+select.select {
+width:150px;
+}

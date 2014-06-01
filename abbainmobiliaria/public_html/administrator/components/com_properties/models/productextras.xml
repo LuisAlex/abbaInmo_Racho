@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<name>Property Extras Edit Form</name>
+	<params group="advanced">
+		<param name="list" type="list" default="" label="list" description="list">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+		</param>
+		
+		<param name="radio" type="radio" default="" label="radio" description="radio">
+			<option value="0">0</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+		</param>
+		
+		<param name="textarea" type="textarea" rows="5" cols="30" default="" label="textarea" description="textarea" />
+
+		<param name="text" type="text" size="20" default="" label="text" description="text" />		
+			
+	</params>
+	
+	
+	<params group="extras">
+		<param name="param1" type="radio" default="" label="param1" description="param1">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param2" type="radio" default="" label="param2" description="param2">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param3" type="radio" default="" label="param3" description="param3">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param4" type="radio" default="" label="param4" description="param4">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param5" type="radio" default="" label="param5" description="param5">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param6" type="radio" default="" label="param6" description="param6">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param7" type="radio" default="" label="param7" description="param7">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param8" type="radio" default="" label="param8" description="param8">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param9" type="radio" default="" label="param9" description="param9">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param10" type="radio" default="" label="param10" description="param10">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param11" type="radio" default="" label="param11" description="param11">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param12" type="radio" default="" label="param12" description="param12">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		
+		<param name="param13" type="radio" default="" label="param13" description="param13">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param14" type="radio" default="" label="param14" description="param14">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param15" type="radio" default="" label="param15" description="param15">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param16" type="radio" default="" label="param16" description="param16">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param17" type="radio" default="" label="param17" description="param17">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param18" type="radio" default="" label="param18" description="param18">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param19" type="radio" default="" label="param19" description="param19">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="param20" type="radio" default="" label="param20" description="param20">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		
+	</params>	
+	
+</form>

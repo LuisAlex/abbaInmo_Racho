@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>jf_texturia</name>
+	<creationDate>20/01/12</creationDate>
+	<author>Kreatif Multimedia GmbH</author>
+	<authorEmail>info@joomfreak.com</authorEmail>
+	<authorUrl>http://www.joomfreak.com</authorUrl>
+	<copyright>Kreatif Multimedia GmbH</copyright>
+	<license>Attribution 2.5 Generic (CC BY 2.5)</license>
+	<version>1.0.0</version>
+	<description>
+	<![CDATA[<style type="text/css" media="all">
+  <!--#container {padding:0 10px;}h2 {font-family: Arial Narrow,sans-serif;font-size:24px;margin:0; color:#000;}--></style>
+  <div id="container"><h2>JF Texturia</h2><hr color="#E6E6E6" size="0">
+    <p><i>JoomFreak 01-2012 Joomla 1.5 Template | Creative Commons | by JoomFreak.com!</i></p><hr color="#E6E6E6" size="0"> 
+  <p>License: <strong><a href="http://creativecommons.org/licenses/by/2.5/" target="_blank">Creative Commons, Attribution 2.5 Generic (CC BY 2.5)</a></strong></p><hr color="#E6E6E6" size="0">
+  <p>JF Texturia demo available here &raquo; <strong><a href="http://www.joomfreak.com/demo/" target="_blank">JoomFreak Demo Server</a></strong></p><hr color="#E6E6E6" size="0">
+  <p><a title="Visit our official website!" href="http://www.joomfreak.com" target="_blank">
+  <img style="padding-left: 5px;" src="../templates/jf_texturia/images/core/jf_texturia.jpg" border="0" alt="Logo" /></a></p>
+  <img src="../templates/jf_texturia/images/core/module_positions.jpg" border="0" alt="Module Positions" />
+  </div>]]>
+	</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>scripts</folder>
+	</files>
+	<positions>
+		<position>social</position>
+		<position>right</position>
+		<position>top-content</position>
+		<position>top-right</position>
+		<position>slideshow</position>
+		<position>bottom-content</position>
+		<position>bottom-right-1</position>
+		<position>bottom-right-2</position>
+		<position>footermenu</position>
+		<position>copyright</position>
+	</positions>
+</install>

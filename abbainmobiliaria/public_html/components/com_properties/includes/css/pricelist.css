@@ -1,0 +1,19 @@
+table.rateslist {
+	border: 4px solid #fad488;
+	font-size: 12px;
+	width:100%;
+	}
+table.rateslist tr td.title{
+	text-align: center;
+	font-weight: bold;
+	background-color: #ffd78b;
+	color: #336699;
+	line-height: 15px;
+	padding: 5px;
+	}	
+table.rateslist tr td{
+	min-width:100px;
+	background-color: #fde8be;
+	color: #336699;
+	font-weight: bold;		
+	}	

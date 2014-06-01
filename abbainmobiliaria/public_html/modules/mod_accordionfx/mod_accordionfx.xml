@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Accordion FX</name>
+	<creationDate>28 April 2011</creationDate>
+	<author>FlashXML.net</author>
+	<copyright>Copyright (C) 2011 FlashXML.net</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@flashxml.net</authorEmail>
+	<authorUrl>http://www.flashxml.net/</authorUrl>
+	<version>0.1.1</version>
+	<description>You can place this Accordion on any website for free without any Flash knowledge. The overall width and height can be customized up to 1680 x 1050 pixels. You may also have an unlimited number of images, advanced text effects, zoom image effects and auto play options. The tooltip is HTML/CSS formatted. Supports images (JPG, GIF, PNG, BMP), SWFs and also has external PNGs (changeable) for play-pause and next-previous buttons.</description>
+	<files>
+		<filename module="mod_accordionfx">mod_accordionfx.php</filename>
+		<filename module="mod_accordionfx">index.html</filename>
+	</files>
+	<params>
+		<param name="accordionfx_path" type="text" size="40" default="/flashxml/accordionfx/" label="Path" description="Path of the Flash component and its assets" />
+		<param name="accordionfx_width" type="text" size="10" default="0" label="Width" description="Width of the Flash component (optional)" />
+		<param name="accordionfx_height" type="text" size="10" default="0" label="Height" description="Height of the Flash component (optional)" />
+		<param name="accordionfx_wmode" type="list" size="10" default="transparent" label="SWF wmode" description="Wmode parameter of the Flash component (optional)">
+			<option value="transparent">transparent</option>
+			<option value="window">window</option>
+		</param>
+	</params>
+</install>

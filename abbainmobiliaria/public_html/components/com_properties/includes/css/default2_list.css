@@ -1,0 +1,146 @@
+#PropertiesList {
+}
+.product {
+margin:10px 0px 10px 0px;
+border:solid 1px #DBD9D9;
+text-align:left;
+padding:5px;
+clear:both;
+position:relative;
+background:transparent url('../img/prbackground.gif') repeat-x; 
+}
+
+
+.featured {
+/*background: #F3F2ED;*/
+}
+
+div.product div.title a{
+font-weight:bold;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:14px;
+}
+.details {
+float:left;
+background-position:center;
+width:100%;
+/*border: 1px solid red;*/
+}
+.imagedetails {
+float:left;
+}
+.details img {
+float: left;
+padding: 2px;
+border: 1px solid #CCCCCC;
+}
+.watermark_box {position:relative;display:block;}
+img.watermark {position: absolute;top: 0px;left: 0px;border: none;}
+
+.details span{
+font-size:90% !important;	
+font-weight:bold !important;
+line-height:120%;
+}
+
+.data {
+	float: left;
+	padding-left:5px;	
+	/*border: 1px solid red;*/
+}
+.data a{
+	text-decoration:none;
+	font-weight:bold !important;	
+}
+
+.priceinlist {
+width:45%;
+position:absolute;
+top:0;
+right:0;
+float:right;
+text-align:right!important;	
+ margin:5px;
+   font-size:12px;
+   line-height:18px;
+   font-weight:bold;
+   color: #009900;  
+}
+
+.ListButtons
+{
+    height:22px; /* 24px */
+    padding:2px 2px 0px 0px;
+    margin:0;    
+	/*border: 1px solid red;*/
+}
+
+.ListButtonsLink
+{
+    display:block;
+    float:left;
+    text-align:center;
+    width:118px; 
+    height:19px;
+    line-height:19px; 
+    font-size:11px;
+    font-weight:bold!important;
+	text-decoration:none;
+    color:#11699F;
+    margin:0px 2px 0px 0px;
+    background:transparent url('../img/btnlnkDetail.png') no-repeat top right; 
+}		
+
+
+
+.favoritebuttoninlist	{
+	min-width:120px;
+	position:absolute;
+	top:80px;
+	right:0;
+	text-align:right!important;	
+	margin:5px;
+   font-size:12px;
+   line-height:18px;
+   font-weight:bold;
+   color:#11699F;  
+}	
+.ajaxAddToFavorites {
+text-align:right!important;	
+}
+
+#progressFavorites {
+width: 100%;
+height:30px;
+position:absolute;
+top:0;
+right:0;
+/*background: #000000 url('../img/loader.gif') no-repeat center;*/
+visibility:hidden;
+opacity:0.6;
+}
+
+.ajaxAddToFavorites .ListButtonsLink
+{
+    display:block;
+    float:left;
+    text-align:center;
+    width:118px; 
+    height:19px;
+    line-height:19px; 
+    font-size:11px;
+    font-weight:bold;
+	text-decoration:none;
+    color: #009900;
+    margin:0px 2px 0px 0px;
+    background:transparent url('../img/btnlnkDetail.png') no-repeat top right; 
+	border: none;
+	cursor:pointer;
+}
+
+.logoagent {
+	min-width:120px;
+	position:absolute;
+	top:30px;
+	right:0;
+}

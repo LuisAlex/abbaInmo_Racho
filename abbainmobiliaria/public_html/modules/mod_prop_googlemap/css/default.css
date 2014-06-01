@@ -1,0 +1,59 @@
+#map-container {
+	padding: 6px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc #ccc #999 #ccc;
+	-webkit-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+	-moz-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+	box-shadow: rgba(64, 64, 64, 0.1) 0 2px 5px;
+	width: 920px;
+	height: 400px;
+	}
+
+#mapaa {
+	width: 920px;
+	height: 400px;
+	}
+
+
+.title {
+	font-weight:bold;
+	margin-bottom:5px;
+	}
+
+.image {
+	float:left;
+	}
+
+.image img{
+	float:left;
+	padding:2px;
+	border: 1px solid #CCCCCC;
+	width:100px;
+	height:75px;
+	}
+
+.text {
+	font-size: 10px !important;
+	line-height:1.4em;
+	margin-left:10px;
+	float:left;
+	font-weight:bold;
+	width:142px;
+}
+
+a.BottomlnkDetail
+{
+    display:block;
+	float:right;
+	text-align:center; 
+    width:118px;
+    height:19px;
+    line-height:19px;
+	font-size:11px;   
+	font-weight:bold;
+    color:#11699F;
+    text-decoration:none;
+    margin:5px 2px 0px 0px;
+    background:transparent url('btnlnkDetail.png') no-repeat top right;     	
+}

@@ -1,0 +1,33 @@
+Remmember, in admin.->components->com properties->states
+New or select state, You have a field called Map id:
+For example if you add state Abruzzo , you need Map id: 14 ,Abruzzo = 14.
+This is the id for states:
+\modules\mod_prop_map_italy\tmpl\default.php
+
+$title[1]="Sardegna";
+$title[2]="Veneto";
+$title[3]="Umbria";
+$title[4]="Trentino-Alto Adige";
+$title[5]="Lombardia";
+$title[6]="Lazio";
+$title[7]="Puglia";
+$title[8]="Sicilia";
+$title[9]="Emilia-Romagna";
+$title[10]="Molise";
+$title[11]="Basilicata";
+$title[12]="Calabria";
+$title[13]="Toscana";
+$title[14]="Abruzzo";
+$title[15]="Valle d'Aosta";
+$title[16]="Marche";
+$title[17]="Friuli-Venezia Giulia";
+$title[18]="Piemonte";
+$title[19]="Campania";
+$title[20]="Liguria";
+
+
+
+in module params replace 'Country id' for the id you add country in your component
+
+
+good luck.
